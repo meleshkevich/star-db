@@ -8,7 +8,6 @@ export default class ItemList extends Component {
   
   swapiService = new SwapiService();
 
-
   state = {
     peopleList: null
   };
