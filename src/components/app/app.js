@@ -9,8 +9,13 @@ import './app.css';
 import ErrorIndicator from '../error-indicator';
 import PeoplePage from '../people-page';
 import ErrorButton from '../error-button';
+import SwapiService from '../../services/swapi-service';
 
 export default class App extends Component {
+
+  swapiService = new SwapiService();
+
+
   state = {
     showRandomPlanet: true,
     hasError: false
@@ -50,19 +55,20 @@ export default class App extends Component {
         <Header />
         { planet }
 
-        <div className="row mb2 button-row">
+        <div className="row mb2 button-row" >
           <button
             className="toggle-planet btn btn-info btn-lg"
             onClick={this.toggleRandomPlanet}>
             Toggle Random Planet
           </button>
-          <ErrorButton />
+          <div>
+            <ErrorButton />
+          </div>
+           
         </div>
 
         <PeoplePage />
-        <PeoplePage />
-        <PeoplePage />
-
+         
       </div>
     );
   }
