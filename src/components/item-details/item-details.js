@@ -14,7 +14,7 @@ const Record = ({item, field, label}) => {
 };
 
 export {
-  Record
+   Record
 };
 
 export default class ItemDetails extends Component {
