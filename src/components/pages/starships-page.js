@@ -5,11 +5,8 @@ import {withRouter} from 'react-router-dom';
  const StarshipsPage = ({ history }) => {
    return (
      <StarshipList
-      onItemSelected= {(itemId) => {
-        const newPath= `/starships/${itemId}`;
-          history.push(newPath);
-      } } />
-   );
- };
+      onItemSelected= {(id) => history.push(id)} />
+    );
+  };
 
  export default withRouter(StarshipsPage); 
