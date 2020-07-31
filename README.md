@@ -20,6 +20,7 @@ This is a study project to learn React concepts and functionality:
 - Error Boundry
 - Loading indicators
 - Higher Order Components
+- Context
 - React Router
 
 --------------------------------------------
