@@ -1,7 +1,7 @@
   With this StarDB App one can:
  
-- Explore Star Wars universe with featured People, Planets and Starships details;
-- Learn about random planet details in the app Header;
+- Explore Star Wars universe with featured `People`, `Planets` and `Starships` details;
+- Learn about random planet details in the app `Header`;
 - Get loged-in on a `Login` simulation page and see hidden content on `Secret` page; 
 - Featured pictures are provided via API from [Star Wars Visual Guide](https://starwars-visualguide.com/#/);
 - Featured details are provided via API from [The Star Wars API](https://swapi.dev/about);
