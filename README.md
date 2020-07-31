@@ -1,15 +1,26 @@
   With this StarDB App one can:
-
-- 
+ 
+- Explore Star Wars universe with featured People, Planets and Starships details;
+- Learn about random planet details in the app Header;
+- Get loged-in on a `Login` simulation page and see hidden content on `Secret` page; 
+- Featured pictures are provided via API from [Star Wars Visual Guide] (https://starwars-visualguide.com/#/);
+- Featured details are provided via API from [The Star Wars API] (https://swapi.dev/about);
+- Throw an Error with `Throw Error` button to simulate UI error behavior;
+- Simulate getting data from mock server with `Change Service` button for testing;
 
 --------------------------------------------
-This is a study project to learn basic React concepts:
+This is a study project to learn React concepts and functionality:
 - React SPA structure 
+- Basic styling with CSS, Bootstrap and Bootstrap Themes 
 - JSX 
 - Components
 - State
 - Props  
-- Basic styling with CSS, Bootstrap and styled-component
+- Fetch API 
+- Error Boundry
+- Loading indicators
+- Higher Order Components
+- React Router
 
 --------------------------------------------
 To run this project locally: 
